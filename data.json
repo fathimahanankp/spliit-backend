@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "id": 1773740474711,
+      "name": "a",
+      "password": "$2b$08$QTzBt8bXp30wMQ12Gp7LyOcVCAOuMfWHNMvysl6SwiynrtyTh0gqy"
+    },
+    {
+      "id": 1773740480305,
+      "name": "b",
+      "password": "$2b$08$bOcE6g/PQkz.ICpsoRxZYez3A.PAzBzs6BGdqfbJgS9XndUpTwvAS"
+    },
+    {
+      "id": 1773740483194,
+      "name": "c",
+      "password": "$2b$08$kJvyOdrtV1adSxfr6iwt0u3nqLAsJZHf0TUcwDR5rKMkNyQXL/pjq"
+    },
+    {
+      "id": 1773740485929,
+      "name": "d",
+      "password": "$2b$08$VYrnGCwgy3HXlNKasdTvoOUPrn7tbZvlnCUcTVvUDZitLjQoOQoiK"
+    }
+  ],
+  "groups": [
+    {
+      "id": 1773740497825,
+      "name": "abcd",
+      "members": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    }
+  ],
+  "expenses": []
+}
