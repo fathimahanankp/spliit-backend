@@ -106,7 +106,7 @@ app.post("/create-group", auth, (req, res) => {
   res.json(group);
 });
 
-// GET ALL GROUPS ✅ FIXED ROUTE
+// GET ALL GROUPS
 app.get("/groups", auth, (req, res) => {
   const data = readData();
   res.json(data.groups);
@@ -165,19 +165,14 @@ app.delete("/expense/:id", auth, (req, res) => {
   res.json({ message: "Deleted" });
 });
 
-// ================= START SERVER =================
+// ================= ROOT =================
 app.get("/", (req, res) => {
   res.send("🚀 Spliit backend is running!");
 });
 
-
-app.listen(3000, () => {
-  console.log("🚀 Server running on http://localhost:3000");
-});
-
-
+// ================= START SERVER =================
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
-  console.log("Server running on port " + PORT);
+  console.log("🚀 Server running on port " + PORT);
 });
